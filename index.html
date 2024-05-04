@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsLetter</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="page_2_design.css">
+</head>
+<body>
+    <div id="main_outer2">
+        <div id="main_outer">
+            <h1> Stay updated! </h1>
+            <p class="para" id="para_1st"> Join 60,000+ product managers receiving monthly update on:</p>
+            <table id="table">
+                <tr>
+                    <td> <img src="icon-list.svg" alt="icon"> </td>
+                    <td class="para"> Product discovery any building what matters </td>
+                </tr>
+                <tr>
+                    <td> <img src="icon-list.svg" alt="icon"> </td>
+                    <td class="para"> Measuring to ensure updates are a success </td>
+                </tr>
+                <tr>
+                    <td> <img src="icon-list.svg" alt="icon"> </td>
+                    <td class="para"> And much more! </td>
+                </tr>
+            </table>
+            <form id="newsletter_form"  target="_parent" >
+                <div id="form_1st">
+                    <label for="email_input" id="email"> Email-address <spam id="hidden"> Valid email required </spam>
+                    </label>
+                    <input type="email"  id="email_input" placeholder="email@company.com">
+                </div>
+                <button  id="sub_button" type="submit" > Subscribe to monthly newsletter  </button>
+            </form>
+        </div>
+        <div>
+            <img src="illustration-sign-up-desktop.svg" id="last_img" alt="design_img">
+        </div>
+    </div>
+    <div id="sucess_main">
+        <div id="main_outer_2nd">
+            <img src="icon-success.svg">
+            <h1 id="first_h1"> Thanks for </h1>
+            <h1> subscribing!</h1>
+            <p> A confirmation email has been sent to <spam id="user_sucess"> ash@loremcompany.com.</spam> Please open it and click the button
+                inside to confirm your subscription.</p>
+            <button id="second_btn"> Dismiss messege </button>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+ </body>
+</html>
